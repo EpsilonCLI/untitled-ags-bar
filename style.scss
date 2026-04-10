@@ -9,12 +9,12 @@ $fg:#{"@theme_fg_color"};
 $radius:5px;
 $hover2:rgba(255,255,255,0.3);
 //$hover2:rgba(0,0,0,0.1);
-$hover: color-mix(in srgb, currentColor 20%, transparent);;
+$hover: color-mix(in srgb, currentColor 20%, transparent);
 $shadow:0px 0px 6px 0px rgba(0,0,0,0.8);
 $error: red;
 
 *{
-  //all: unset;
+  // all: unset;
   //outline: 1px solid #000;
   font-size: 16px;
   //font-family: "Noto Sans";

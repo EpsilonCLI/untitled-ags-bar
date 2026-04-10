@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#AI生成  AI generate
 get_cpu_usage() {
     # 第一次读取CPU数据
     read -r cpu user nice system idle iowait irq softirq steal guest guest_nice < /proc/stat

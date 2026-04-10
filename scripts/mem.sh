@@ -1,4 +1,5 @@
 #!/bin/bash
+#AI生成  AI generate
 #fastfetch --structure memory -j | jq -r '.[0].result | (.used / .total * 100 | round) | "  " + tostring + "%"'
 
 get_memory_usage() {
